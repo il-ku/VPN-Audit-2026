@@ -1,0 +1,43 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "2050382c-3f59-4824-9a8c-5fc0ec7e4951",
+            "flow": "xtls-rprx-vision"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.nvidia.com:443",
+          "xver": 0,
+          "serverNames": [
+            "www.nvidia.com"
+          ],
+          "privateKey": "**REDACTED**",
+          "shortIds": [
+            "b3498e33"
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    }
+  ]
+}
