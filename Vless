@@ -1,0 +1,7 @@
+Сервер А 
+vless://b311610a-4fb1-4bbf-9260-76a2eb32a140@136.148.220.81:443?security=reality&encryption=none&pbk=2vEiaFH3x-WwGtPnESw1sn4CvIWJDo1pRgRR10dNWns&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=9ebee41173c2de08&spx=%2F#Vision-NVIDIA
+
+vless://b311610a-4fb1-4bbf-9260-76a2eb32a140@136.148.220.81:443?security=reality&encryption=none&pbk=2vEiaFH3x-WwGtPnESw1sn4CvIWJDo1pRgRR10dNWns&headerType=none&fp=chrome&type=xhttp&path=%2Fxhttp-stream&host=www.nvidia.com&sni=www.nvidia.com&sid=9ebee41173c2de08#XHTTP-NVIDIA
+
+сервер В
+vless://2050382c-3f59-4824-9a8c-5fc0ec7e4951@136.148.220.108:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nvidia.com&fp=chrome&pbk=EMcbnpmWgubJ22ybsBaT1NRragEKzKLFvXBKCUUlaUY&sid=b3498e33&type=tcp&headerType=none#node-b1
